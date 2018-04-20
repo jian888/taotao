@@ -25,6 +25,11 @@
             <artifactId>taotao-content-interface</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+        <!-- Jackson Json处理工具包 -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+        </dependency>
         <!-- Spring -->
         <dependency>
             <groupId>org.springframework</groupId>

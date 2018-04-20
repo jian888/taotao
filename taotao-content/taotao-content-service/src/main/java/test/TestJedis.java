@@ -24,7 +24,7 @@ public class TestJedis {
 
     public static void testJedisPool(){
         //创建一个数据库连接池对象（单例，即一个系统共用一个连接池），需要指定服务的IP和端口号
-        JedisPool jedisPool = new JedisPool("122.114.125.40", 6379);
+        JedisPool jedisPool = new JedisPool("192.168.180.129", 7001);
         //从连接池中获得连接
         Jedis jedis = jedisPool.getResource();
         //使用jedis操作数据库（方法级别，就是说只是在该方法中使用，用完就关闭）
