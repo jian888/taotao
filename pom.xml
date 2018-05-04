@@ -14,6 +14,10 @@
         <module>taotao-manager-web</module>
         <module>taotao-portal-web</module>
         <module>taotao-content</module>
+        <module>taotao-cart-web</module>
+        <module>taotao-item-web</module>
+        <module>taotao-search</module>
+        <module>taotao-search-web</module>
     </modules>
     <properties>
         <junit.version>4.12</junit.version>
@@ -45,9 +49,16 @@
         <freemarker.version>2.3.23</freemarker.version>
         <quartz.version>2.2.2</quartz.version>
         <fastjson.version>1.2.41</fastjson.version>
+        <jmail.version>1.5.6</jmail.version>
     </properties>
     <dependencyManagement>
         <dependencies>
+            <!-- JMail组件 -->
+            <dependency>
+                <groupId>com.sun.mail</groupId>
+                <artifactId>javax.mail</artifactId>
+                <version>${jmail.version}</version>
+            </dependency>
             <!-- 时间操作组件 -->
             <dependency>
                 <groupId>joda-time</groupId>

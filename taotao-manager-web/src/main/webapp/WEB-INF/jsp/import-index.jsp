@@ -4,7 +4,7 @@
 </div>
 <script type="text/javascript">
 function importIndex() {
-	$.post("/index/import",function(data){
+	$.post("/index/import",null,function(data){
 		if(data.status == 200){
 			$.messager.alert('提示','导入索引库成功！！！！');
 		}else{
