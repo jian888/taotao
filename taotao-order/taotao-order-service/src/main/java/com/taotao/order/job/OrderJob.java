@@ -1,0 +1,12 @@
+package com.taotao.order.job;
+
+/**
+ * 测试
+ * Created by lenovo on 2018-05-07.
+ */
+public class OrderJob {
+    //执行任务
+    public void execute(){
+        System.out.println("任务已经执行。。。。。");
+    }
+}

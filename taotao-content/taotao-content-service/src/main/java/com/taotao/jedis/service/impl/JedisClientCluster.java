@@ -1,8 +1,7 @@
 package com.taotao.jedis.service.impl;
 
-import org.springframework.beans.factory.annotation.Autowired;
-
 import com.taotao.jedis.service.JedisClient;
+import org.springframework.beans.factory.annotation.Autowired;
 
 import redis.clients.jedis.JedisCluster;
 /**
